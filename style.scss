@@ -1,0 +1,29 @@
+#pic{
+    width: 400px;
+    margin: 0 auto;
+    height: 250px;
+    text-align: center;
+    position: relative;
+}
+
+.pictur_list{
+    height: 250px;
+
+    img{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 1s;
+        
+        &:first-child{
+            opacity: 1;
+        }
+        &.visible{
+            opacity: 1;
+        }
+
+    }
+    
+}
