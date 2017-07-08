@@ -1,17 +1,8 @@
 # slider-javascript
 slider javascript
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">    
-</head>
-<body>
           
-/*style css*/
+    /*style css*/
       <style>
         .pictur_list{
             height: 250px;
@@ -35,6 +26,8 @@ slider javascript
         }
 
       </style>
+      
+      /*html*/
            <div id="pic">
              <div class="pictur_list">
                 <img src="http://cdn.ministrytodaymag.com/images/stories/2015/misc/pastor-blog.jpg" alt="">
@@ -46,10 +39,10 @@ slider javascript
             <input type="button" class="btn_next" value="next"></input>
           </div>
     
-    <script>
-$(function(){
+        <script>
+            $(function(){
 
-var btn_next = document.querySelector('.btn_next'); //button left
+            var btn_next = document.querySelector('.btn_next'); //button left
             var btn_prev = document.querySelector('.btn_prev'); //button right
             var img      = document.querySelectorAll('#pic .pictur_list img'); //images
             var i        = 0;
@@ -74,7 +67,4 @@ var btn_next = document.querySelector('.btn_next'); //button left
     
         });  
     </script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</body>
-</html>
 
