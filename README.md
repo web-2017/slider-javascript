@@ -11,7 +11,7 @@ slider javascript
 </head>
 <body>
           
-      /*style css*/
+/*style css*/
       <style>
         .pictur_list{
             height: 250px;
@@ -47,9 +47,9 @@ slider javascript
           </div>
     
     <script>
-        $(function(){
+$(function(){
 
-            var btn_next = document.querySelector('.btn_next'); //button left
+var btn_next = document.querySelector('.btn_next'); //button left
             var btn_prev = document.querySelector('.btn_prev'); //button right
             var img      = document.querySelectorAll('#pic .pictur_list img'); //images
             var i        = 0;
